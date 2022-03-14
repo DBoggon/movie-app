@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld title="The Movie Database Thing"/>
+    <search-movie></search-movie>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import SearchMovie from './components/SearchMovie.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    SearchMovie
   }
 }
 </script>
